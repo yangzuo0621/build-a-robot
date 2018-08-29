@@ -73,8 +73,8 @@ export default {
         leftArm: {},
         torso: {},
         rightArm: {},
-        base: {}
-      }
+        base: {},
+      },
     };
   },
   mixins: [createdHookMixin],
@@ -86,9 +86,9 @@ export default {
       return {
         border: this.selectedRobot.head.onSale
           ? '3px solid red'
-          : '3px solid #aaa'
+          : '3px solid #aaa',
       };
-    }
+    },
   },
   methods: {
     addToCart() {
@@ -100,8 +100,8 @@ export default {
         robot.rightArm.cost +
         robot.base.cost;
       this.cart.push(Object.assign({}, robot, { cost }));
-    }
-  }
+    },
+  },
 };
 </script>
 
