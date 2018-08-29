@@ -16,6 +16,5 @@ import getPartsMixin from './get-parts-mixin';
 export default {
   name: 'RobotArms',
   mixins: [getPartsMixin],
-
 };
 </script>
