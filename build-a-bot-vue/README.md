@@ -1,4 +1,4 @@
-# build-a-bot
+# build-a-bot-vue
 
 ## Project setup
 ```
