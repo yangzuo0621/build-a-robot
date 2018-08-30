@@ -21,3 +21,7 @@ npm run lint
 ```
 
 https://github.com/jmcooper/vuejs-fundamentals
+
+vue inspect --mode-production
+
+edit vue.config.js to customize webpack config
